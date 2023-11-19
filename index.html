@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaman Praaksara</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Montserrat:ital,wght@1,500&family=Poppins&family=Ubuntu:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Montserrat:ital,wght@0,500;1,500&family=Poppins&family=Ubuntu:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Montserrat:ital,wght@1,500&family=Ubuntu:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+        
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .navigation {
+            background-color: black;
+            display: flex;
+            justify-content: space-around;
+            height: 90px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 9999;
+        }
+
+        .navbar ul {
+            display: flex;   
+            margin-left: 480px;
+            align-items: center;
+        }
+
+        .navbar {
+            width: 70%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar ul li a {
+            margin-left: 70px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .navbar ul li {
+            list-style-type: none;
+            font-family: poppins;
+        }
+
+        .profile {
+            margin-top: 150px;
+            width: 300px;
+            height: 450px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 20px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            transition: .3s;
+        }
+
+        .profile:hover {
+            transform: scale(1.1);
+        }
+
+        .container{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        ul li {
+            color: rgb(0, 0, 0);
+            list-style-type: none;
+            font-family: poppins;
+        }
+
+        .ul2 {
+            margin-top: 60px;
+        }
+
+        .materi1 {
+            display: flex;
+            height: 100%;
+            margin-bottom: 100px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border-radius: 10px;
+        }
+
+        .profile img{
+            transition: 1s;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="navigation">
+        <div style="display: flex; height: 100%; align-items: center;">
+            <p style="color: white; font-family: poppins; font-size: 30px; ">PraAksara</p>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="#card">About Me</a></li>
+                <li><a href="#Materi">Materi</a></li>
+                <li><a href="#list">List</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="card"></div>
+    <p style="margin: 120px 0px -115px 0px; text-align: center; justify-content: center; font-family: poppins; font-weight: bold; font-size: 20px;">Developer Web :</p>
+    <div class="container">
+        <div class="profile">
+            <img src="gustit.jpg" alt="" width="40%" height="25%" style="display: block; margin: auto; margin-top: 60px; border-radius: 40px;">
+            <ul class="ul2">
+                <li class="li2">Nama : Mohamad Gusti Ramadhan</li><br>
+                <li class="li2">Kelas : X-Rpl1</li><br>
+                <li class="li2">Absen : 21</li><br>
+            </ul>
+        </div>
+    </div>
+    <div id="Materi"></div>
+    <div style="border-bottom: 3px solid #bbb; width: 80%; margin: 10px -10px 100px 150px;"></div>
+    <h1 style="display: flex; align-items: center; justify-content: center; text-align: center; font-weight: bold; font-family: poppins; margin-bottom: 30px; margin-top: -40px;">Materi :</h1>
+    <div class="materi1">
+        <img src="Rangkuman-Kondisi-Kehidupan-Masyarakat-Pada-Masa-Praaksara-Lengkap.jpg" alt="" width="40%" height="40%" style="margin-left: 20px; border-radius: 10px;">
+        <div class="deskripsi">
+            <p style="font-family: poppins; font-weight: bold; font-size: 30px; margin-left: 20px;">Apa itu Zaman Praaksara</p>
+            <div style="border-bottom: 3px solid #bbb; width: 60%; margin: -15px -10px 0px 10px;"></div>
+            <p style="font-family: poppins; font-size: 20px; margin-left: 20px;">Masa praaksara digunakan untuk menyebut suatu masa ketika manusia belum mengenal tulisan. Masa ini selalu dikaitkan dengan kehidupan manusia yang primitif dan masih bergantung pada alam.</p>
+        </div>  
+    </div>
+    <div style="border-bottom: 3px solid #bbb; width: 80%; margin: 10px -10px 100px 150px;"></div>
+    <div class="materi1">
+        <div>
+            <p style="font-family: poppins; font-weight: bold; font-size: 30px; margin-left: 20px;">Jenis Manusia Purba di Indonesia</p>
+            <div style="border-bottom: 3px solid #bbb; width: 70%; margin: -15px -10px 0px 10px;"></div>
+            <p style="font-family: poppins; font-size: 20px; margin-left: 20px;">Beberapa fosil manusia purba ditemukan di berbagai daerah Indonesia. Diketahui bahwa sejauh ini terdapat 6 jenis manusia purba yang ada di Indonesia,namun yang akan saya bahas hanya 3,berikut daftarnya.</p>
+        </div>
+        <img src="33906-homo-erectus.jpg" alt="" width="40%" height="40%">
+    </div>
+    <div id="list"></div>
+        <div class="materi1">
+            <img src="5e32a09fa99bf.png" alt="" width="40%" height="40%">
+            <div>
+                <p style="font-family: poppins; font-weight: bold; font-size: 30px; margin-left: 20px;">Meganthropus Paleojavanicus</p>
+                <div style="border-bottom: 3px solid #bbb; width: 70%; margin: -15px -10px 0px 10px;"></div>
+                <p style="font-family: poppins; font-size: 20px; margin-left: 20px;">Manusia purba ini ditemukan oleh GHR Von Koenigswald pada tahun 1936-1941 di Sangiran, Sragen, Jawa Tengah.Ciri-ciri manusia purba ini antara lain:<br>
+                    -Rahang yang tegap dan geraham yang besar<br>
+                    -Tulang pipi tebal<br>
+                    -Kening menjorok ke depan dengan tonjolan belakang kepala yang tajam<br>
+                    </p>
+            </div>
+        </div>
+        <div class="materi1">
+            <div>
+                <p style="font-family: poppins; font-weight: bold; font-size: 30px; margin-left: 20px;">Pithecanthropus Mojokertensis</p>
+                <div style="border-bottom: 3px solid #bbb; width: 70%; margin: -15px -10px 0px 10px;"></div>
+                <p style="font-family: poppins; font-size: 20px; margin-left: 20px;">Jenis manusia purba ini dianggap sebagai manusia purba paling tua yang ditemukan di Perning, Mojokerto, Jawa Timur. Manusia purba tersebut ditemukan oleh tokoh yang sama sebelumnya yaitu GHR Von Koenigswald pada tahun 1936.<br></p>
+            </div>
+            <img src="nlnb0gxsxfeuhxtlyt4k.jpg  " alt="" width="40%" height="40%">
+        </div>
+        <div class="materi1">
+            <img src="resources_news_2021_03_05_36896_ciri-ciri-pithecanthropus-erectus-secara-fisik-manusia-purba-berdiri-tegak-yang-ditemukan-di-trinil-2103058.jpg" alt="" width="40%" height="40%">
+            <div>
+                <p style="font-family: poppins; font-weight: bold; font-size: 30px; margin-left: 20px;">Pithecanthropus Erectus</p>
+                <div style="border-bottom: 3px solid #bbb; width: 70%; margin: -15px -10px 0px 10px;"></div>
+                <p style="font-family: poppins; font-size: 20px; margin-left: 20px;">Manusia purba ini ditemukan di lembah Bengawan Solo, Desa Trinil, Jawa Tengah oleh Eugene Dubois tahun 1891. Nama jenis ini memiliki arti sebagai manusia kera yang berjalan tegak lurus dan dianggap spesies awal manusia masa kini.<br></p>
+            </div>
+        </div>
+        <div style="border-bottom: 3px solid #bbb; width: 80%; margin: 10px -10px 100px 150px;"></div>
+        <h2 style="font-weight: bold; font-family: poppins; justify-content: center; align-items: center; text-align: center; font-size: 30px;">Sekian Materi yang dapat saya sampaikan</h2>
+        <h3 style="font-family: poppins; justify-content: center; align-items: center; text-align: center; margin-bottom: 100px;">Kurang lebihnya saya mohon maaf🤝🙏</h3>
+</body>
+</html>
